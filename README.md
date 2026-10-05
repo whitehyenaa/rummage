@@ -17,6 +17,7 @@ A client-side Fabric mod for Minecraft that highlights storage blocks containing
 
 ### Extra
 
+The outline Rummage renders around storage blocks is not visible through solid (opaque) blocks, but is visible through blocks like leaves and glass.
 > [!NOTE]
 > **Rummage** only works on chests you have previously opened. A server-side mod to find items across chests all players have opened is currently under development.
 
