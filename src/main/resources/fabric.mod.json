@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "rummage",
+	"version": "${version}",
+	"name": "Rummage",
+	"description": "Remembers what's in every chest you open. Search from your inventory and the right containers light up.",
+	"license": "MIT",
+	"icon": "assets/rummage/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["rummage.Rummage"],
+		"modmenu": ["rummage.ModMenuIntegration"]
+	},
+	"mixins": ["rummage.mixins.json"],
+	"suggests": {
+		"modmenu": "*"
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
