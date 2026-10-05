@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "rummage.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": ["HandledScreenAccessor"],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
